@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('Build'){
             steps{
-                sh 'g++ -c PES1UG21CS837.cpp'
+                sh 'g++ -c PES1UG21CS837_vaibhav.cpp' // changing file name here
                 sh 'g++ -o PES1UG21CS837 PES1UG21CS837.cpp'
                 echo 'build stage successful'
             }
